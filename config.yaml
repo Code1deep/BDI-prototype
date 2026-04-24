@@ -1,0 +1,27 @@
+# Configuration BDI-prototype
+# Logique de paramétrage pour simulation et collecte réelle
+
+simulation:
+  mode: "progressif"           # Démarrage par paliers
+  tolerance_interval: 0.05     # Intervalle de tolérance physique
+  intervalle_secondes: 5       # Fréquence de collecte
+
+mqtt:
+  broker: "broker.emqx.io"
+  port: 1883
+  topic: "productique/bdi/sensors"
+  client_id: "bdi_prototype_v1"
+
+capteurs:
+  ph:
+    base: 6.8
+    amplitude: 0.3
+    unite: "ph"
+  temperature:
+    base: 24.5
+    amplitude: 2.0
+    unite: "°C"
+  ec:
+    base: 850
+    amplitude: 50
+    unite: "µS/cm"
