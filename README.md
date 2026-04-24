@@ -13,6 +13,8 @@ Ce dépôt contient les scripts Python pour la collecte de données (capteurs Io
 
 ## Installation
 ```bash
+git clone https://github.com/Code1deep/BDI-prototype.git
+cd BDI-prototype
 pip install -r requirements.txt
 python collecte_simulee.py
 
