@@ -13,3 +13,21 @@ La BDI capte trois types de traces d'apprentissage :
 
 ## Architecture
 
+Capteurs IoT (ESP32) → MQTT → BDI (Python) → InfluxDB → Grafana
+
+## Fichiers
+
+| Fichier | Fonction |
+|---------|----------|
+| `collecte_reelle.py` | Collecte des données capteurs via MQTT |
+| `collecte_simulee.py` | Simulation de données pour les tests |
+| `config.yaml` | Configuration des connexions (MQTT, InfluxDB) |
+
+## Statut
+
+Prototype de recherche — Cycle 1 DBR. Non destiné à un usage
+en production.
+
+## Licence
+
+MIT — voir [LICENSE](LICENSE)
