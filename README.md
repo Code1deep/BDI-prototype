@@ -1,1 +1,15 @@
-"Contenu du README..." 
+# BDI — Base de Données Intelligente (prototype)
+
+Prototype d'un pipeline de collecte, normalisation et visualisation
+de données issues de capteurs IoT, développé dans le cadre d'une
+recherche doctorale en didactique des systèmes complexes.
+
+## Fonction dans le dispositif de recherche
+
+La BDI capte trois types de traces d'apprentissage :
+- **Traces système** — données capteurs (pH, température, O₂, EC)
+- **Traces d'action** — interventions de l'apprenant sur le système
+- **Traces de prédiction** — modèle mental explicité par l'apprenant
+
+## Architecture
+
